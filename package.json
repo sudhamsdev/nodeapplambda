@@ -1,0 +1,30 @@
+{
+    "name": "AWSLambdaContainer",
+    "version": "1.0.0",
+    "description": "AWS Lambda function to run as container",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js",
+    },
+    "engines": {
+      "node": ">=20.17.0",
+      "npm": ">=10.0.0"
+    },
+    "author": "Sudhams Reddy Duba",
+    "license": "ISC",
+    "dependencies": {
+      "pdfkit": "0.15.0",
+      "faker": "6.6.6",
+      "get-stream": "9.0.1",
+    },
+    "devDependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sudhamsdev/nodeapplambda.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sudhamsdev/nodeapplambda/issues"
+    },
+    "homepage": "https://github.com/sudhamsdev/nodeapplambda/blob/main/README.md"
+  }
